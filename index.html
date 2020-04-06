@@ -75,8 +75,7 @@ d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/d
       .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
       .call(d3.drag()
         .subject(function(d) { return d; })
-        .on("start", function() { this.parentNode.appendChild(this); })
-        .on("drag", dragmove));
+        .on("start", function() { this.parentNode.appendChild(this); });
 
   // add the rectangles for the nodes
   node
