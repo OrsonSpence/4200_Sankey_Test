@@ -1,15 +1,11 @@
-{
-"nodes":[
+{"nodes":[
 {"node":0,"name":"Sumba Income"},
 {"node":1,"name":"Education"},
 {"node":2,"name":"Cost of Living"},
 {"node":3,"name":"Medical"},
-{"node":4,"name":"Family Business"}
-],
+{"node":4,"name":"Family Business"}],
 "links":[
 {"source":0,"target":1,"value":2},
 {"source":0,"target":2,"value":2},
 {"source":0,"target":3,"value":2},
-{"source":0,"target":4,"value":2},
-]
-}
+{"source":0,"target":4,"value":2},]}
